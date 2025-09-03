@@ -67,6 +67,7 @@ public class Ex2 {
                     min = array[j];
                     idx = j;
                 }
+
             }
 
             if (idx != i){
