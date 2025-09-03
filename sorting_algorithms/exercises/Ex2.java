@@ -105,6 +105,5 @@ public class Ex2 {
         for (int num : array) {
             System.out.print(num + " ");
         }
-
     }
 }
