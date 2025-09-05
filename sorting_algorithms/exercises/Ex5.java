@@ -1,6 +1,19 @@
 package sorting_algorithms.exercises;
 import java.util.Arrays;
 
+/*
+Implemente o algoritmo Length-Based String
+Sort
+Regra:
+Dada uma lista de strings, ordene pela quantidade
+de caracteres (crescente).
+Se tiverem o mesmo tamanho, ordene em ordem
+alfabética.
+Exemplo:
+Entrada: [“uva”, “banana”, “maçã”, “kiwi”]
+Saída: [“uva”, “kiwi”, “maçã”, “banana”]
+ */
+
 public class Ex5 {
 
     public static void lengthBasedStringSort(String[] array) {
