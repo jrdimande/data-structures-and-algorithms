@@ -19,11 +19,16 @@ public class InsertionSort {
     }
 
     public static void main(String[] args){
-        int[] nums = {3,1,5,2,8,4,3,8,9,0,5,23,-10};
+        int[] nums = {
+                3, 1, 5,
+                2, 8, 4,
+                3, 8, 9,
+                0, 5, 2
+        };
+
         System.out.println("Antes de ordenar: " + Arrays.toString(nums));
         InsertionSort(nums);
         System.out.println("Depois de ordenar: " + Arrays.toString(nums));
-
 
     }
 }

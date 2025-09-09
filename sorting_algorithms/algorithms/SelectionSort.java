@@ -3,7 +3,8 @@ import java.util.Random;
 import java.util.Arrays;
 
 public class SelectionSort  {
-    public static void SelectionSort(int[] a){
+
+    public static void selectionSort(int[] a){
         int length = a.length;
 
         for (int i = 0; i < length; i++){
@@ -45,7 +46,7 @@ public class SelectionSort  {
         fillArray(numbers, 0, 5, rand);
 
         System.out.println("Antes de ordenar: " + Arrays.toString(numbers));
-        SelectionSort(numbers);
+        selectionSort(numbers);
         System.out.println("Depois de ordenar: " + Arrays.toString(numbers));
 
 

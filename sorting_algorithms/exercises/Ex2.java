@@ -1,6 +1,5 @@
 package sorting_algorithms.exercises;
 
-
 /*
 2. Implemente o algoritmo Even-Odd Sort (ParImpar Sort)
 Regra:
