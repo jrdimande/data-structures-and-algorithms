@@ -46,5 +46,7 @@ public class Ex1 {
 
         // Depois de ordenar
         System.out.println("Depois: " + nums);
+        read.close();
     }
+
 }
