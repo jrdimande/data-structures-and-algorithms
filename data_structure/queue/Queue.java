@@ -29,6 +29,10 @@ public class Queue {
         head = head.getNext();
     }
 
+    public Node peek(){
+        return this.head;
+    }
+
 
     public void printAll(){
         Node current = this.head;
