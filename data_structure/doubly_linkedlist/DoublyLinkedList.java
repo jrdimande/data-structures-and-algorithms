@@ -10,7 +10,7 @@ public class DoublyLinkedList {
     }
 
     public void insertAtBeginnig(int data){
-        Node newNode = Node(data);
+        Node newNode = new Node(data);
         if (this.head == null){
             this.head = this.tail = newNode;
         }
