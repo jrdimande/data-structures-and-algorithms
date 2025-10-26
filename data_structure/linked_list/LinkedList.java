@@ -56,10 +56,5 @@ public class LinkedList {
             current.next = current.next.next;
         }
 
-
-
-
-
-
     }
 }
