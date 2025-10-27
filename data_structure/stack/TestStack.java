@@ -7,6 +7,8 @@ public class TestStack {
         s.push(20);
         s.push(30);
         s.push(40);
+        s.pop();
+        s.size();
         s.printAll();
     }
 }

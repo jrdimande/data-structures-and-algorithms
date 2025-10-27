@@ -33,7 +33,6 @@ public class Queue {
         return this.head;
     }
 
-
     public void printAll(){
         Node current = this.head;
         while (current != null){

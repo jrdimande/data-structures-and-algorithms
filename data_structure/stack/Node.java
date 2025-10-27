@@ -1,6 +1,6 @@
 package data_structure.stack;
 
-public class Node {
+public class                  Node {
     private int data;
     private Node next;
 

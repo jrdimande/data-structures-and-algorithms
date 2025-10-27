@@ -22,12 +22,22 @@ public class Stack  {
         return data;
     }
 
-    public void isEmpty(){
+    public boolean isEmpty(){
         if (this.head == null){
-            System.out.printf("empty");
+            return true;
         }else {
-            System.out.printf("not empty");
+            return false;
         }
+    }
+
+    public int size(){
+        int size = 0;
+        Node current = this.head;
+        while (current != null){
+            size++;
+            current = current.getNext();
+        }
+        return size;
     }
 
     public void printAll(){
