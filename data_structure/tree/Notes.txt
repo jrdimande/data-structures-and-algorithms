@@ -1,0 +1,4 @@
+Grau No: Número de filhos que um um nó tem
+Grau da árvore: O maior grau entre todos os nós da árvore
+Folhas: Nos com grau zero
+
