@@ -1,4 +1,5 @@
 Grau No: Número de filhos que um um nó tem
 Grau da árvore: O maior grau entre todos os nós da árvore
 Folhas: Nos com grau zero
-
+Nível : É a distância em relação a raiz
+Altura/Profundidade: É p máximo nível entre os nós de uma árvore
