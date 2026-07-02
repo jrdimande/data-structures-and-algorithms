@@ -3,3 +3,9 @@ Grau da árvore: O maior grau entre todos os nós da árvore
 Folhas: Nos com grau zero
 Nível : É a distância em relação a raiz
 Altura/Profundidade: É p máximo nível entre os nós de uma árvore
+
+Percursos
+
+In-Order: Esquerda - Raiz - Direita
+Pre-Order: Raiz - Esquerda - Direita
+Pos-Order: Esquerda - Raiz - Direita
