@@ -8,4 +8,4 @@ Percursos
 
 In-Order: Esquerda - Raiz - Direita
 Pre-Order: Raiz - Esquerda - Direita
-Pos-Order: Esquerda - Raiz - Direita
+Pos-Order: Esquerda - Direita - Raiz
